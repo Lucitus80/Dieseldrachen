@@ -1,0 +1,12 @@
+{
+    "dieseldrachen":{
+        "weapons":{
+        "Reach": "Reichweite",
+        "Weaponweight": "Waffengewicht",
+        "Damage": "Schaden",
+        "Price": "Preis",
+        "Name": "Name",
+        "Description": "Beschreibung"
+        }
+    }
+}
