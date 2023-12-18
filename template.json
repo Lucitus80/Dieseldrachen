@@ -9,7 +9,29 @@
     },
     "Item": {
         "types":[
-           "Nahkampfwaffe"
-        ]
+           "Melee",
+           "Ranged",
+           "Armor",
+           "Equipment"
+        ],
+        "templates":{
+            "itemDescription": {
+                "dieseldrachen.weapons.description": ""
+            },
+            "itemName": {
+                "dieseldrachen.weapons.name": ""
+            },
+            "itemPrice": {
+                "dieseldrachen.weapons.Price": "?$"
+            }
+        },
+        "Melee":{
+            "dieseldrachen.weapons.Reach":"kurz",
+            "dieseldrachen.weapons.Weaponweight": "W4",
+            "dieseldrachen.weapons.Damage":"K",
+            "templates":[
+                "itemDescription","itemPrice","itemName"
+            ]
+        }
     }
 }

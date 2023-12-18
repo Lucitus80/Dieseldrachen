@@ -1,0 +1,30 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
+    </header>
+    <div>
+        <table>
+            <tr>
+                <th>{{localize "dieseldrachen.weapons.Reach"}}</th>
+                <th>{{localize "dieseldrachen.weapons.Weaponweight"}}</th>
+                <th>{{localize "dieseldrachen.weapons.Damage"}}</th>
+                <th>{{localize "dieseldrachen.weapons.Price"}}</th>
+            </tr>
+            <tr>
+               <td>
+                <input name="data.Reach" type="text" value="{{data.Reach}}" data-dtype="Number" />
+               </td>
+               <td>
+                <input name="data.Weaponweight" type="text" value="{{data.Weaponweight}}" data-dtype="Number" />
+               </td>
+               <td>
+                <input name="data.Damage" type="text" value="{{data.Damage}}" data-dtype="Number" />
+               </td>
+               <td>
+                <input name="data.Price" type="text" value="{{data.Price}}" data-dtype="Number" />
+               </td> 
+            </tr>
+        </table>
+        <textarea name="data.Description">{{data.Description}}</textarea>
+</form>

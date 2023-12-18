@@ -2,17 +2,27 @@
     "id": "dieseldrachen",
     "title": "Dieseldrachen 2. Edition",
     "description": "This Module is for the 2nd Edition of the German RPG Dieseldrachen.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "compatibility": {
         "minimum": "11",
         "verified": "11",
         "maximum": "11"
     },
+    "esmodules": [
+        "dieseldrachen.js"
+    ],
     "authors": [
         {
             "name": "Eric Gulden",
             "discord": "lucitus",
             "flags": {}
+        }
+    ],
+    "languages":[
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "lang/de.json"
         }
     ]
 }
