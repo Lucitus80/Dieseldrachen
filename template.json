@@ -1,0 +1,15 @@
+{
+    "Actor": {
+        "types": [
+            "PC",
+            "Fahrzeug",
+            "Gegner",
+            "Bossgegner"
+        ]
+    },
+    "Item": {
+        "types":[
+           "Nahkampfwaffe"
+        ]
+    }
+}
